@@ -96,7 +96,56 @@ else:
 
 
 # League dict
+
+
+# League dict
 LEAGUE_DICT = {
+    
+  "ENG-Championship": {
+    "FBref": "Championship",
+    "season_start": "Aug",
+    "season_end": "May",
+  },
+  "BEL-Belgian Pro League": {
+
+    "FBref": "Belgian Pro League",
+
+    "season_start": "Aug",
+    "season_end": "May"
+  },
+
+  "POR-Primeira Liga": {
+    "FBref": "Primeira Liga",
+
+    "season_start": "Aug",
+    "season_end": "May"
+  },
+
+  "NED-Eredivisie": {
+    "ClubElo": "NED_1",
+    "MatchHistory": "N1",
+    "SoFIFA": "[Netherlands] Eredivisie",
+    "FBref": "Eredivisie",
+    "ESPN": "ned.1",
+    "FiveThirtyEight": "eredivisie",
+    "WhoScored": "Netherlands - Eredivisie",
+    "Sofascore": "Eredivisie",
+    "season_start": "Aug",
+    "season_end": "May"
+  },
+  "MEX-Liga MX": {
+    "ClubElo": "MEX_1",
+    "MatchHistory": "M1",
+    "SoFIFA": "[Mexico] Liga MX",
+    "FBref": "Liga MX",
+    "ESPN": "mex.1",
+    "FiveThirtyEight": "liga MX",
+    "WhoScored": "Mexico - Liga MX",
+    "Sofascore": "Liga MX",
+    "season_start": "Jul",
+    "season_end": "May"
+  },
+
     "ENG-Premier League": {
         "ClubElo": "ENG_1",
         "MatchHistory": "E0",
